@@ -96,6 +96,54 @@
 .two-columns__span-accent {
   font-weight: 600;
 }
+.digits {
+  margin-top: 100px;
+
+}
+.section-title {
+  text-align: center;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 0 20%;
+
+}
+.section-subtitle {
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0 20%;
+}
+.table {
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+
+}
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+
+}
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
