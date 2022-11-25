@@ -26,7 +26,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 1;
+  z-index: 2;
   background-image: url(../images/logo_place_header.svg);
 }
 .header__title {
@@ -35,7 +35,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  z-index: 1;
+  z-index: 2;
 }
 .header__subtitle {
   width: 388px;
@@ -43,7 +43,7 @@
   font-size: 18px;
   font-weight: 400;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   bottom: 30px;
   left: 64px;
   margin: 0;
@@ -66,6 +66,7 @@
   position: absolute;
   right: 0;
   top: 64px;
+  z-index: 0;
 }
 .description {
   margin-top: 100px;
@@ -189,12 +190,12 @@
   overflow: hidden;
 
 }
-.section-title__theme_dark {
+.section-title_theme_dark {
   color: white;
   position: relative;
   z-index: 1;
 }
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   color: white;
   position: relative;
   z-index: 1;
@@ -249,7 +250,7 @@
   flex-basis: 711px;
   position: relative;
 }
-.logo__place_footer {
+.logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
 }
 .footer__author {
@@ -270,15 +271,14 @@
   font-weight: 600;
   color: white;
   margin: 0 0 20px;
-
 }
-.footer__links {
+.footer__column-links {
   padding: 0;
 }
 .footer__list-item {
   display: block;
 }
-.footer__link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
