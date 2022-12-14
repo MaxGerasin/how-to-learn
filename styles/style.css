@@ -361,6 +361,25 @@
   top: 0;
   right: -210px;
 }
+.resources {
+  margin: 100px 0 217px ;
+}
+.resources__logo-zone {
+  display: flex;
+  margin: 80px auto 0;
+  justify-content: center;
+  width: 1100px;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+.resources__link {
+  text-decoration: none;
+  margin: 0;
+}
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
 .footer {
   display: flex;
   background-color: #1f1f1f;
