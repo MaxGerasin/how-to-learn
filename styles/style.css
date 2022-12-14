@@ -458,3 +458,11 @@
   animation: rotation 20s infinite linear;
 
 }
+.link-opacity {
+  opacity: 1;
+}
+
+.link-opacity:hover {
+  opacity: 0.6;
+  transition: opacity ease 1s;
+}
